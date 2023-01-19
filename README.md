@@ -2,7 +2,7 @@
 
 ## Few words about me, music that I like, and books that I am recommending
 
-![How the website looks like](image.png)
+![How the website looks like](images/page.png)
 
 [Link do strony](https://sajrim.github.io/homepage/)
 
