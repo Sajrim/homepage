@@ -22,7 +22,7 @@ html {
     padding: 3%;
     text-align: center;
     font-family: "Lato", sans-serif;
-    background-color: rgb(31, 28, 28);
+    background-color: rgba(31, 28, 28, 0.733);
     line-height: 1.5;
 
 }
@@ -30,7 +30,7 @@ html {
 .main__button {
     display: block;
     color: white;
-    background-color: rgba(21, 29, 40, 0.952);
+    background-color: rgba(21, 29, 40, 0.747);
     border-radius: 5px;
     box-shadow: 2px 1px 3px 3px rgb(21 29 40);
     display: inline;
@@ -53,4 +53,10 @@ html {
     font-size: 12px;
     text-align: center;
     margin-top: 20px;
+}
+
+.header__photo {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
 }

@@ -33,12 +33,12 @@
 
 .section__tableCell {
     border: 1px solid black;
-    background-color: rgba(206, 206, 206, 0.78);
+    background-color: rgba(70, 80, 82, 0.322);
     padding: 20px;
     text-align: center;
 }
 
-.section__tableHeader {
+.section__tableHeader  {
     background-color: rgb(31 58 99 / 78%);
     color: white;
     font-weight: normal;
@@ -48,6 +48,27 @@
     background-color: #ddd;
 }
 
+.section-tableRow:nth-child(even) {
+    background-color: rgba(70, 80, 82, 0.164);
+}
+
 .section__container {
     overflow-x: auto;
+}
+
+.section__flex {
+    padding: 5px;
+    display: flex;
+}
+
+
+.section__flexItem {
+    flex-grow: 1;
+    padding: 10px;
+    margin: 4px;
+    display: inline;
+}
+
+.section__flexItem:hover {
+    background-color: #21283a
 }
