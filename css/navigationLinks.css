@@ -1,0 +1,24 @@
+.navigation__link {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.navigation__link:hover {
+    color: white;
+    border: 1px solid;
+    outline: none;
+}
+
+.navigation__list {
+    display: block;
+    color: white;
+    background-color: rgb(21 29 40);
+    border-radius: 20px;
+    box-shadow: 2px 1px 3px 3px #7a7a7a;
+    display: inline;
+    padding: 10px;
+}
