@@ -30,101 +30,21 @@ html {
 .main__button {
     display: block;
     color: white;
-    background-color: rgb(21 29 40);
-    border-radius: 20px;
-    box-shadow: 2px 1px 3px 3px #7a7a7a;
+    background-color: rgba(21, 29, 40, 0.952);
+    border-radius: 5px;
+    box-shadow: 2px 1px 3px 3px rgb(21 29 40);
     display: inline;
     padding: 10px;
 }
-
-.navigation__link {
-    color: white;
-    text-decoration: none;
-}
-
-.navigation__link:focus {
-    outline: 2px solid currentColor;
-}
-
-.navigation__link:hover {
-    color: white;
-    border: 1px solid;
-    outline: none;
-}
-
-.navigation__list {
-    display: block;
-    color: white;
-    background-color: rgb(21 29 40);
-    border-radius: 20px;
-    box-shadow: 2px 1px 3px 3px #7a7a7a;
-    display: inline;
-    padding: 10px;
-}
-
 
 .name {
     color: white;
     font-size: 35px;
-    background-color: rgb(21 29 40);
-    border-radius: 20px;
-    box-shadow: 2px 1px 3px 3px #7a7a7a;
+    background-color: rgb(31, 58, 99);
+    border-radius: 5px;
+    box-shadow: 2px 1px 3px 3px rgba(106, 142, 197, 0.733);
     padding: 10px;
     margin: 30px
-}
-
-.section__heading {
-    color: white;
-    font-size: 26px;
-    background-color: rgb(31, 58, 99);
-    border-radius: 20px;
-    box-shadow: 2px 1px 3px 3px #7a7a7a;
-    padding: 8px;
-    margin: 35px
-}
-
-.section__title {
-    color: white;
-    font-size: 20px;
-    background-color: rgb(31, 58, 99);
-    border-radius: 20px;
-    box-shadow: 2px 1px 3px 3px #7a7a7a;
-    padding: 4px;
-}
-
-.section__text {
-    color: white;
-    background-color: rgb(31 58 99 / 78%);
-    border-radius: 20px;
-    box-shadow: 2px 1px 3px 3px #7a7a7a;
-    padding: 3px 10px;
-}
-
-.section__table {
-    font-family: "Lato", sans-serif;
-    border-collapse: collapse;
-    width: 100%
-}
-
-.section__tableCell {
-    border: 1px solid black;
-    background-color: rgba(206, 206, 206, 0.78);
-    padding: 20px;
-    text-align: center;
-}
-
-.section__tableHeader {
-    background-color: rgb(31 58 99 / 78%);
-    color: white;
-    font-weight: normal;
-}
-
-.section-tableRow:hover {
-    background-color: #ddd;
-}
-
-.section__container {
-    overflow-x: auto;
 }
 
 .footer {

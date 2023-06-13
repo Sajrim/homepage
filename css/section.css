@@ -2,8 +2,8 @@
     color: white;
     font-size: 26px;
     background-color: rgb(31, 58, 99);
-    border-radius: 20px;
-    box-shadow: 2px 1px 3px 3px #7a7a7a;
+    border-radius: 7px;
+    box-shadow: 2px 1px 3px 3px rgba(106, 142, 197, 0.733);
     padding: 8px;
     margin: 35px
 }
@@ -11,17 +11,17 @@
 .section__title {
     color: white;
     font-size: 20px;
-    background-color: rgb(31, 58, 99);
-    border-radius: 20px;
-    box-shadow: 2px 1px 3px 3px #7a7a7a;
+    background-color: rgb(10, 44, 95);
+    border-radius: 7px;
+    box-shadow: 2px 1px 3px 3px rgba(106, 142, 197, 0.733);
     padding: 4px;
 }
 
 .section__text {
     color: white;
     background-color: rgb(31 58 99 / 78%);
-    border-radius: 20px;
-    box-shadow: 2px 1px 3px 3px #7a7a7a;
+    border-radius: 7px;
+    box-shadow: 2px 1px 3px 3px rgba(106, 142, 197, 0.733);
     padding: 3px 10px;
 }
 
