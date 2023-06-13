@@ -1,0 +1,13 @@
+.flex.flex {
+    max-width: 1000px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:6px;
+}
+
+.flex__element.flex__element {
+    display: inline;
+    flex: 1 0 130px;
+    flex-grow: 1;
+}
