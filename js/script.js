@@ -1,9 +1,16 @@
-let button = document.querySelector(".js-main__button");
-let body = document.querySelector(".js-body");
-let theme = document.querySelector(".js-main__button-theme");
 
-button.addEventListener("click", () => {
+{
+  const toggleBackground = () => {
+    const theme = document.querySelector(".js-main__button-theme");
+    const body = document.querySelector(".js-body");
     body.classList.toggle("dark");
+    theme.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+  };
 
-  body.classList.contains("dark") ? "jasny" : "ciemny"
-});
+  const init = () => {
+    const button = document.querySelector(".js-main__button");
+    const general = button.addEventListener("click", toggleBackground);
+    ;
+  };
+  init()
+}
