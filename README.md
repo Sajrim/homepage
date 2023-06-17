@@ -6,4 +6,17 @@
 
 [Link do strony](https://sajrim.github.io/homepage/)
 
+## Technology used in the project:
+- HTML
+- CSS
+- Markdown
+- JavaScript
+- ES6+ Feature
+- flexbox
+- BEM convention
+- Normalize CSS
+- GIT
+- Grid
+
 ### Website has been created in order to let me learn, practice and develop my FrontEnd Skills
+
