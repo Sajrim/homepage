@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szymon Rutkowski</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- pliki CSS -->
+    <link href="css/aside.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/dark.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="page">
+
+    <header class="header">
+        <h1 class="header__title">Krótko o mnie:</h1>
+
+        <nav class="nav">
+            <button class="nav__themeButton">
+                Włącz <span class="nav__themeName">ciemny</span> motyw
+            </button>
+
+            <ul class="nav__list">
+                <li class="nav__listItem">
+                    <a class="nav__link" href="#Kim-jestem">Kim jestem</a>
+                </li>
+                <li class="nav__listItem">
+                    <a class="nav__link" href="#zwierzeta">Zwierzęta</a>
+                </li>
+                <li class="nav__listItem">
+                    <a class="nav__link" href="#ksiazki">Książki</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="article">
+
+            <section class="sectionBlock" id="Kim-jestem">
+                <h2 class="sectionBlock__heading">Kim jestem</h2>
+                <p class="sectionBlock__text">
+                <p>Cześć! <br> Nazywam się <strong>Szymon </strong> i obecnie <b>studiuję informatykę </b>
+                    inżynierską
+                    <em> na
+                        drugim roku</em>. Na co dzień pracuję jako młodszy operator maszyn, a po godzinach rozwijam
+                    się
+                    w
+                    kierunku programowania i nowych technologii. Wiem, że do końca wsparcia kursu zostało mało
+                    czasu,
+                    ale może z
+                    odrobiną motywacji uda się wyrobić do końca listopada z lekcjami. Jak mówią <i> "Lepiej późno,
+                        niż w
+                        cale"</i>.
+                </p>
+            </section>
+
+            <section class="sectionBlock" id="zwierzeta">
+                <h2 class="sectionBlock__heading">O moich zwierzętach</h2>
+
+                <img class="sectionBlock__image" width="250" height="300" src="images/20250901_055439.jpg"
+                    alt="Zdjęcie Quini (kota)">
+
+                <p class="sectionBlock__text">
+                    Obecnie, nie mam dużo zwierząt. W domu rodzinnym jest pies o imieniu Miki. Obecnie mam kota o
+                    imieniu Quini.
+                    Możliwe, że niedługo będzie tych zwierząt nieco więcej.
+                </p>
+
+                <img class="sectionBlock__image" width="250" height="300" src="images/20250807_223631.jpg"
+                    alt="Kolejne zdjęcie Quini (kota)">
+            </section>
+
+            <section class="sectionBlock" id="ksiazki">
+                <div class="tableBlock__responsive">
+
+                    <table class="tableBlock">
+                        <caption class="tableBlock__caption">Moje ulubione książki:</caption>
+
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="col">Tytuł</th>
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="col">Autor</th>
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="col">Liczba stron</th>
+                        </tr>
+
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="row">Początek</th>
+                            <td class="tableBlock__cell">Vasily Mahanenko</td>
+                            <td class="tableBlock__cell">336</td>
+                        </tr>
+
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="row">Szklany tron</th>
+                            <td class="tableBlock__cell">Sarah J. Maas</td>
+                            <td class="tableBlock__cell">518</td>
+                        </tr>
+
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="row">Szklany klosz</th>
+                            <td class="tableBlock__cell">Sylvia Plath</td>
+                            <td class="tableBlock__cell">256</td>
+                        </tr>
+
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="row">Szklany tron</th>
+                            <td class="tableBlock__cell">Sarah J. Maas</td>
+                            <td class="tableBlock__cell">518</td>
+                        </tr>
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="row">Szklany klosz</th>
+                            <td class="tableBlock__cell">Sylvia Plath</td>
+                            <td class="tableBlock__cell">256</td>
+                        </tr>
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="row">Amerykaana</th>
+                            <td class="tableBlock__cell">Chimamanda Ngozi Adichie</td>
+                            <td class="tableBlock__cell">765</td>
+                        </tr>
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="row">Ready Player One</th>
+                            <td class="tableBlock__cell">Ernest Cline</td>
+                            <td class="tableBlock__cell">386</td>
+                        </tr>
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="row">Black Out</th>
+                            <td class="tableBlock__cell">Marc Elsberg</td>
+                            <td class="tableBlock__cell">784</td>
+                        </tr>
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="row">Dziewczyna, kobieta, inna
+                            </th>
+                            <td class="tableBlock__cell">Bernardine Evaristo</td>
+                            <td class="tableBlock__cell">496</td>
+                        </tr>
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="row">Projekt Hail Mary</th>
+                            <td class="tableBlock__cell">Andy Weir</td>
+                            <td class="tableBlock__cell">496</td>
+                        </tr>
+                        <tr class="tableBlock__row">
+                            <th class="tableBlock__cell tableBlock__cell--header" scope="row">Zbrodnia i kara</th>
+                            <td class="tableBlock__cell">Fiodor Dostojewski</td>
+                            <td class="tableBlock__cell">560</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </section>
+
+        </article>
+
+        <aside class="asideBlock">
+            <p class="asideBlock__quote">
+                <i>"A najpierwszą ze wszystkich otrzymał lekcję (...) – Diuna"</i>
+            </p>
+
+            <p class="asideBlock__contact">
+                Mój e-mail:
+                <a class="asideBlock__link" href="mailto:szymon.rutkowski1@gmail.com">
+                    szymon.rutkowski1@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <a class="asideBlock__link" rel="noreferrer noopener" target="_blank"
+                    href="https://github.com/Sajrim">Repozytorium na GitHubie</a>
+            </p>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2025 Szymon Rutkowski</p>
+    </footer>
+
+</body>
+
+</html>

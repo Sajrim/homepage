@@ -1,0 +1,39 @@
+.tableBlock__responsive {
+    overflow-x: auto;
+}
+
+.tableBlock {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.95rem;
+    border-color: #ddd;
+}
+
+.tableBlock__caption {
+    color: #5555c4;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.tableBlock__cell,
+.tableBlock__cell--header {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.tableBlock__cell--header {
+    background-color: #5555c4;
+    color: white;
+    font-weight: 600;
+}
+
+.tableBlock__row:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.tableBlock__row:hover {
+    background-color: #e7e7ff;
+}

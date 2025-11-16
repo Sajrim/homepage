@@ -1,0 +1,10 @@
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header__title {
+    color: #5555c4;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
