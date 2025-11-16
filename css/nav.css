@@ -2,6 +2,10 @@
     background-color: #eaeaf5;
     padding: 10px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
 }
 
 .nav__list {
