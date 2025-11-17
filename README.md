@@ -1,10 +1,11 @@
-# A simple website about me and my interests 
+![presentation](https://github.com/user-attachments/assets/470f7423-b96b-4711-867a-fc29cad4ff62)
+#A simple website about me and my interests 
 
 ## Few words about me, my pet, and books that I am recommending
 
 ![How the website looks like](
 
-[Lint to the website]()
+[Lint to the website](https://sajrim.github.io/homepage/)
 
 ## Technology used in the project:
 - HTML
