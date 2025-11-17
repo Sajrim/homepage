@@ -1,4 +1,4 @@
-.sectionBlock {
+.section {
     margin: 25px 0;
     padding: 20px 30px;
     background-color: #ffffff;
@@ -21,7 +21,7 @@
     height: 230px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
     flex-shrink: 0;
 }
 
@@ -31,43 +31,42 @@
 }
 
 
-.dark .sectionBlock {
+.dark .section {
     background-color: #232327;
     box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
 }
 
-.sectionBlock__heading {
+.section__heading {
     color: #5555c4;
     margin-bottom: 10px;
 }
 
-.sectionBlock__text {
+.section__text {
     margin-bottom: 10px;
 }
 
-.sectionBlock__image {
+.section__image {
     border-radius: 8px;
     margin: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.sectionBlock--pets {
+.section--pets {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.sectionBlock--pets .sectionBlock__images {
+.section--pets .section__images {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
 
-.sectionBlock--pets .sectionBlock__image {
+.section--pets .section__image {
     flex: 1 1 250px;
     max-width: 100%;
     border-radius: 8px;
     object-fit: cover;
 }
-

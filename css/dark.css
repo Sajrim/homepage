@@ -8,55 +8,55 @@
     color: #f7f7f7;
 }
 
-.dark .sectionBlock,
+.dark .section,
 .dark .nav {
     color: #f1f1f1;
     background-color: #232327;
     box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
 }
 
-.dark .tableBlock__cell--header {
+.dark .table__cell--header {
     background-color: #5555c4;
     color: #fff;
 }
 
-.dark .tableBlock {
+.dark .table {
     border-color: #444;
 }
 
-.dark .tableBlock__row:nth-child(even) {
+.dark .table__row:nth-child(even) {
     background-color: #2a2a2f;
 }
 
-.dark .tableBlock__row:nth-child(odd) {
+.dark .table__row:nth-child(odd) {
     background-color: #1f1f23;
 }
 
-.dark .tableBlock__row:hover {
+.dark .table__row:hover {
     background-color: #343446;
 }
 
-.dark .tableBlock__cell {
+.dark .table__cell {
     border-color: #444;
     color: #f1f1f1;
 }
 
-.dark .asideBlock {
+.dark .aside {
     background-color: #2a2a2f;
     border: 1px solid #444;
     color: #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.dark .asideBlock a {
+.dark .aside a {
     color: #8a8aff;
 }
 
-.dark .asideBlock a:hover {
+.dark .aside a:hover {
     color: #b3b3ff;
     text-decoration: underline;
 }
 
-.dark .asideBlock p {
+.dark .aside p {
     color: #ccc;
 }
