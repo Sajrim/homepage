@@ -70,3 +70,7 @@
     border-radius: 8px;
     object-fit: cover;
 }
+
+.section__tableContainer {
+    overflow-x: auto;
+}

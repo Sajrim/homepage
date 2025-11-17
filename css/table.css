@@ -1,7 +1,3 @@
-.table__responsive {
-    overflow-x: auto;
-}
-
 .table {
     border-collapse: collapse;
     width: 100%;
