@@ -3,7 +3,7 @@
 
 ## Few words about me, my pet, and books that I am recommending
 
-[How the website looks like](https://sajrim.github.io/homepage/)
+[Click here to go to the website](https://sajrim.github.io/homepage/)
 
 ## Technology used in the project:
 - HTML
