@@ -1,6 +1,4 @@
 {
-    console.log("Krótka strona o mnie, w trakcie rozwijania. Więcej już wkrótce!");
-
     const toggleTheme = () => {
         const body = document.querySelector(".page");
         const themeName = document.querySelector(".nav__themeName");
